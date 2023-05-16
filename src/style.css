@@ -6,6 +6,48 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #eee;
+h1 {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.score_head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.score {
+  width: 50%;
+}
+
+.score_details {
+  width: 100%;
+  border: 2px solid rgb(97, 94, 94);
+  margin-top: 10px;
+}
+
+.odd {
+  background-color: rgb(221, 216, 216);
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.add_score {
+  width: 30%;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 5px;
 }
