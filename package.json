@@ -26,8 +26,9 @@
   "dependencies": {
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.1",
+    "serve": "^14.2.0",
     "style-loader": "^3.3.2",
-    "webpack": "^5.81.0",
+    "webpack": "^5.82.1",
     "webpack-cli": "^5.0.2"
   }
 }
