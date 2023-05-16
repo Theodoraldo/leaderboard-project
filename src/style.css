@@ -37,6 +37,10 @@ h1 {
   background-color: rgb(221, 216, 216);
 }
 
+.even {
+  background-color: rgb(255, 255, 255);
+}
+
 li {
   list-style-type: none;
   padding: 10px;
