@@ -36,7 +36,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To-Do-List <a name="about-project"></a>
+# 📖 Leaderboard Projec <a name="about-project"></a>
 
 **Leaderboard Project** is an application that enable users to fetch data from API.
 
