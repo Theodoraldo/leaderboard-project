@@ -3,8 +3,8 @@ const leaderBoardUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.n
 
 let sliceId = '';
 
-container.innerHTML = '';
 const displayData = async () => {
+  container.innerHTML = '';
   if (sliceId !== []) {
     sliceId = localStorage.getItem('generatedId').slice(14, 34);
     const response = await fetch(`${leaderBoardUrl}games/${sliceId}/scores/`);
