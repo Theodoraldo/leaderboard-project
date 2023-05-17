@@ -13,7 +13,7 @@ const saveScore = async () => {
     method: 'POST',
     body: JSON.stringify({
       user: userName.value,
-      score: parseInt(userScore.value),
+      score: userScore.value,
     }),
     headers: {
       'Content-Type': 'application/json',
