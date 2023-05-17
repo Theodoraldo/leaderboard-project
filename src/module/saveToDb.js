@@ -4,8 +4,6 @@ let sliceId = '';
 const userName = document.getElementById('user_name');
 const userScore = document.getElementById('user_score');
 
-
-
 const saveScore = async () => {
   if (sliceId !== []) {
     sliceId = localStorage.getItem('generatedId').slice(14, 34);
