@@ -14,4 +14,5 @@ refresh.addEventListener('click', () => {
   displayData();
 });
 
-window.onload = newCreatedGame();
+newCreatedGame();
+window.onload = displayData();
