@@ -1,16 +1,18 @@
 import './style.css';
-import scores from './module/database.js';
+import newCreatedGame from './module/generateId.js';
+import saveScore from './module/saveToDb.js';
+import displayData from './module/fetchData.js';
 
-const container = document.querySelector('.container');
+const submit = document.getElementById('submit');
+submit.addEventListener('click', (e) => {
+  e.preventDefault();
+  saveScore();
+});
 
-const displayScore = () => {
-  container.innerHTML = '';
-  for (let i = 0; i < scores.length; i += 1) {
-    container.innerHTML += `
-    <li class='${scores[i].id % 2 ? 'odd' : 'even'}'>${scores[i].name} : ${scores[i].score}</li>
-    </ul>
-    `;
-  }
-};
+const refresh = document.getElementById('refresh');
+refresh.addEventListener('click', () => {
+  displayData();
+});
 
-displayScore();
+newCreatedGame();
+window.onload = displayData();
