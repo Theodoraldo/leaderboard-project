@@ -11,7 +11,7 @@ const displayData = async () => {
     const data = await response.json();
     for (let i = 0; i < data.result.length; i += 1) {
       container.innerHTML += `
-        <li class='${data.result[i] % 2 ? 'odd' : 'even'}'>${data.result[i].user} : ${data.result[i].score}</li>
+        <li class='${i % 2 === 0 ? 'odd' : 'even'}'>${data.result[i].user} : ${data.result[i].score}</li>
         </ul>
         `;
     }
