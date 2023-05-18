@@ -92,7 +92,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](Not ready yet)
+- [Live Demo Link](https://theodoraldo.github.io/leaderboard-project/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +162,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, kindly send your comments using the form in the portfolio.
+If you like this project, kindly star it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
