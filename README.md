@@ -84,6 +84,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **[Display Scrores]**
+- **[API Fetch]**
+- **[Local Storage]**
 - **[Add Scores]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,9 +144,8 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[API Fetch]**
+- [ ] **[Animation and Transition]**
 - [ ] **[Database]**
-- [ ] **[Local Storage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
